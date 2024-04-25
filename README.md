@@ -161,6 +161,7 @@ Separating the transactions from the queries:
 3. If you are to pick either insert or update one of the types of queries involving data, then you will be prompted to enter in the column name and value you'd like to set for that column in the format "columnName=value, columnName2=value2,...".
 4. If you are to pick a statement with conditions like for  insert, update, search, or sorting, then you will be prompted to enter the condition which should be entered as it would appear after the WHERE clause.
 5. Columns should be specified in a comma separated list and only one table mentioned at any given prompt.
-6. Generally just follow the prompts on the screen, most of the time the formatting will be explained in the prompt as well.
+6. Strings need to be contained within single quotes like this 'sample string' and not double quotes.
+7. Generally just follow the prompts on the screen, most of the time the formatting will be explained in the prompt as well.
 
 There is some flexibility with formats of user input as the program will automatically remove any trailing or leading white space as well as correct and standardize casing in the input.
